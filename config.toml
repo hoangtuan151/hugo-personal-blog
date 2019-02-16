@@ -2,7 +2,7 @@ baseurl         = "/"
 #baseurl         = "https://blog.itpro5.com"
 
 theme           = "casper-two"
-languageCode    = "en-US"
+languageCode    = "vi-VN"
 disqusShortname = ""
 paginate        = 6
 #SectionPagesMenu = "main"
@@ -11,28 +11,29 @@ publishDir      = "docs"
 
 [params]
   title       = "Hugo Casper Two"
-  subtitle    = "Port of Casper 2.x for Hugo"
-  copyright   = "© 2018"
+  subtitle    = "Công ty TNHH PVSS"
+  copyright   = "© 2019 - Đã đăng ký bản quyền"
 
-  cover       = "img/blog-cover.jpg"
+  cover       = "img/blog-cover2.jpg"
   description = "Here is a description of your site."
   metaDescription = ""
   googleAnalytics = ""
   customCSS = []
   RSSLink = ""
 
-  twitterName = "faketryghost"
-  fbName = "fakeghost"
-  githubName = "eueung"
-  linkedinName = "eueung"
-  mediumName = ""
+  #twitterName = "faketryghost"
+  #fbName = "fakeghost"
+  #githubName = "eueung"
+  #linkedinName = "eueung"
+  #mediumName = ""
 
-  logo = "hugo-logo.png"
-  orgName = "EM"
-  orgWebsite = "https://www.telematika.org"
+  logo = "logo-vong-am-duong.png"
+  orgName = "PVSS"
+  #orgWebsite = "https://www.telematika.org"
   orgDescription = "Here is a description placeholder for your org"
 
-  showSupport = true
+  #showSupport = true
+  showSupport = false
 
   author = "EM"
   authorAvatar = "img/ghost-icon.png"

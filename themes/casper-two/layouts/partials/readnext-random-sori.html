@@ -2,7 +2,7 @@
 <article class="read-next-card" {{if .Site.Params.cover}}
             style="background-image: url({{.Site.Params.cover | absURL}});" {{else}}style="background-color: #090a0b;"{{end}}>
     <header class="read-next-card-header">
-        <small class="read-next-card-header-sitetitle">&mdash; {{.Site.Params.Title}} &mdash;</small>
+        <small class="read-next-card-header-sitetitle">&mdash; Xem Thêm &mdash;</small>
         {{if .Params.tags }}{{ range $index, $tag := .Params.tags }}{{if lt $index 1}}
         <h3 class="read-next-card-header-title"><a href="{{$.Site.BaseURL}}tags/{{ $tag | urlize }}/">#{{$tag}}</a></h3>{{end}}{{end}}{{ end }}
     </header>
